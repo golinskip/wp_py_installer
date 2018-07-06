@@ -1,0 +1,15 @@
+  1. Pobranie latest wordpressa
+  2. Rozpakowanie we wskazanym miejscu
+  3. Utworzenie bazy danych do danego projektu
+  4. Stworzenie adresu wpisu w etc/hosts
+  5. Utworzenie virtual hosta
+  6. Ustawienie uprawień dla użytkownika
+  7. Sklonowanie pluginu wtst-theme-toolkit
+  8. Sklonowanie themesa wtst-theme
+  9. Sklonowanie layoutu
+  11. Skopiowanie src dist jako src
+  12. a2ensite
+  13. apache restart
+
+Instalacja:
+apt-get install python python-yaml python-wget python-mysqldb python-git

@@ -1,0 +1,25 @@
+path:
+        #http: /home/pawel/public_html
+        http: /home/pawel/projects/toolpack/wp-toolpack/tmp
+        #apache-site: /etc/apache2/sites-available/
+        vhost: /home/pawel/projects/toolpack/wp-toolpack/tmp
+        #hosts: /etc/hosts
+        hosts: /home/pawel/projects/toolpack/wp-toolpack/tmp/hosts
+url:
+        wordpress: https://wordpress.org/latest.zip
+git:
+        url: http://pawel:miserere@gitlab.whitesite.eu/
+        plugin: wp/plugin-theme-toolkit.git
+        theme: wp/template-basic.git
+        theme-compiler: wp/theme-compiler.git
+txt:
+        domain: .loc
+        plugin: wthitesite-theme-toolkit
+        theme: whitesite
+        theme-complier: layout
+mysql:
+        user: pawel
+        pass: hpsbwpllb
+rights:
+        user: pawel
+        group: pawel
